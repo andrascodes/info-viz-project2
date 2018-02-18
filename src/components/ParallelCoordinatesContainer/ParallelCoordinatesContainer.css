@@ -1,0 +1,9 @@
+.ParallelCoordinatesContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.parcoords {
+  display: flex;
+  justify-content: center;
+}

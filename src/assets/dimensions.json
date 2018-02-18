@@ -1,0 +1,42 @@
+{
+  "immigrants": {
+    "description": "Would not like to have immigrants/foreign workers as neighbors",
+    "title": "Disliking Immigrants",
+    "type": "number"
+  },
+  "politics": {
+    "description": "Not interested in politics",
+    "title": "Disinterest in Politics",
+    "type": "number"
+  },
+  "strongLeader": {
+    "description": "It is good to have a strong leader who does not have to bother with parliament and elections",
+    "title": "Favouring a strong leader",
+    "type": "number"
+  },
+  "democracy": {
+    "description": "It is NOT good to have a democratic political system",
+    "title": "Disliking democracy",
+    "type": "number"
+  },
+  "nationalism": {
+    "description": "Proud of nationality",
+    "title": "Nationalistic feelings",
+    "type": "number"
+  },
+  "politicalParties": {
+    "description": "Have no Confidence in Political Parties",
+    "title": "No confidence in parties",
+    "type": "number"
+  },
+  "fightForCountry": {
+    "description": "Would fight for the country",
+    "title": "Would fight for country",
+    "type": "number"
+  },
+  "happiness": {
+    "description": "Feeling NOT happy",
+    "title": "Unhappy",
+    "type": "number"
+  }
+}
