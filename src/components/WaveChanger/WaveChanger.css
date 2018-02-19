@@ -1,0 +1,31 @@
+.WaveChangerContainer {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0em;
+}
+
+.WaveChanger {
+  display: flex;
+  width: 800px;
+  justify-content: center;
+}
+
+.WaveChanger [type='radio'] {
+  display: none;
+}
+
+.WaveChanger input + label {
+  border: 0.05em solid black;
+  border-right: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.WaveChanger label:last-child {
+  border-right: 0.05em solid black;
+}
+
+.WaveChanger input:checked + label {
+  background: #1e272e;
+  color: white;
+}

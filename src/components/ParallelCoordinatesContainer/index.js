@@ -37,6 +37,9 @@ class ParallelCoordinatesContainer extends Component {
     if(this.props.highlightedItem !== nextProps.highlightedItem) {
       return true
     }
+    else if(this.props.data.length !== nextProps.data.length) {
+      return true
+    }
     return false
   }
 
@@ -50,26 +53,18 @@ class ParallelCoordinatesContainer extends Component {
   }
 
   render() {
-    console.log('render')
-    // const getHighlights = (highlightedItem) => {
-    //   console.log(highlightedItem)
-    //   if(highlightedItem === undefined) {
-    //     return []
-    //   }
-    //   else {
-    //     return [highlightedItem]
-    //   }
-    // }
+
+    this.props.dimensions.happiness.scale = d3.scale.linear().range([0, 100])
 
     return (
       <div className="ParallelCoordinatesContainer">
         <ParallelCoordinates
           color={ this.getColorForData }
           width={1250}
-          height={200}
+          height={250}
           dimensions={this.props.dimensions}
           data={this.props.data}
-          highlights={this.props.highlightedItem}
+          highlights={this.props.highlightedItem ? [this.props.highlightedItem] : []}
           onBrush={this.props.onBrush}
           onBrushEnd={this.props.onBrushEnd}
         />

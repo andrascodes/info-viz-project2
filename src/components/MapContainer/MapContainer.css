@@ -38,3 +38,16 @@
   left: 0;
   text-align: center;
 }
+
+.tooltipName {
+  margin: 0;
+}
+
+.tooltipName .em {
+  margin-right: 0.5em;
+}
+
+.tooltipTable {
+  font-size: 0.75em;
+  text-align: center;
+}

@@ -2,7 +2,8 @@
   "immigrants": {
     "description": "Would not like to have immigrants/foreign workers as neighbors",
     "title": "Disliking Immigrants",
-    "type": "number"
+    "type": "number",
+    "domain": [0, 100]
   },
   "politics": {
     "description": "Not interested in politics",

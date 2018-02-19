@@ -1,0 +1,9 @@
+.TitleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.Title {
+  /* width: 60%; */
+  text-align: center;
+}

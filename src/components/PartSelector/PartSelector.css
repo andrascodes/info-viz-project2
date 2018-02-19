@@ -1,0 +1,6 @@
+.PartSelector {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+  margin-bottom: 4em;
+}
