@@ -5,7 +5,8 @@ import {
   MapContainer,
   WaveChanger,
   PartSelector,
-  ScatterContainer
+  ScatterContainer,
+  AnalyticTrailTwo
 } from './components'
 
 import dataW1 from './assets/dataW1.json'
@@ -103,6 +104,7 @@ class PartTwo extends Component {
           onClick={this.handleClick}
           color={continentToColourMap}
         />
+        <AnalyticTrailTwo />
       </div>
     );
   }
