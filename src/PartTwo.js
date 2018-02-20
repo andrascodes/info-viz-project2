@@ -89,7 +89,9 @@ class PartTwo extends Component {
           selected={this.state.wave}
           onChange={this.handleWaveChange}
         />
-        <ScatterContainer />
+        <ScatterContainer 
+          data={this.state.data}
+        />
         <MapContainer
           dimensions={dimensions}
           selectable={this.state.brushed}

@@ -2,36 +2,43 @@
   "Asia": {
     "faded": "rgba(231, 76, 60, 0.1)",
     "half": "rgba(231, 76, 60, 0.85)",
-    "full": "rgba(231, 76, 60, 1.0)"
+    "full": "rgba(231, 76, 60, 1.0)",
+    "hex": "#e74c3c"
   },
   "Africa": {
     "faded": "rgba(241, 196, 15, 0.1)",
     "half": "rgba(241, 196, 15, 0.85)",
-    "full": "rgba(241, 196, 15, 1.0)"
+    "full": "rgba(241, 196, 15, 1.0)",
+    "hex": "#f1c40f"
   },
   "Europe": {
     "faded": "rgba(52, 152, 219, 0.1)",
     "half": "rgba(52, 152, 219, 0.85)",
-    "full": "rgba(52, 152, 219, 1.0)"
+    "full": "rgba(52, 152, 219, 1.0)",
+    "hex": "#3498db"
   },
   "South America": {
     "faded": "rgba(46, 204, 113, 0.1)",
     "half": "rgba(46, 204, 113, 0.85)",
-    "full": "rgba(46, 204, 113, 1.0)"
+    "full": "rgba(46, 204, 113, 1.0)",
+    "hex": "#2ecc71"
   },
   "Seven seas (open ocean)": {
     "faded": "rgba(142, 68, 173, 0.1)",
     "half": "rgba(142, 68, 173, 0.85)",
-    "full": "rgba(142, 68, 173, 1.0)"
+    "full": "rgba(142, 68, 173, 1.0)",
+    "hex": "#8e44ad"
   },
   "Oceania": {
     "faded": "rgba(142, 68, 173, 0.1)",
     "half": "rgba(142, 68, 173, 0.85)",
-    "full": "rgba(142, 68, 173, 1.0)"
+    "full": "rgba(142, 68, 173, 1.0)",
+    "hex": "#8e44ad"
   },
   "North America": {
     "faded": "rgba(230, 126, 34, 0.1)",
     "half": "rgba(230, 126, 34, 0.85)",
-    "full": "rgba(230, 126, 34, 1.0)"
+    "full": "rgba(230, 126, 34, 1.0)",
+    "hex": "#e67e22"
   }
 }

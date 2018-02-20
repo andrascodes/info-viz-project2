@@ -10,14 +10,7 @@
     "nationalism": 91.8,
     "politicalParties": 90.3,
     "fightForCountry": 88.5,
-    "happiness": 11.3,
-    "income": 13615.2,
-    "hdi": 0.7784,
-    "internet": 25.34140838,
-    "lifeExpectancy": 75.36,
-    "youngMales": 30.80284285,
-    "medianAge": 29.12,
-    "populationGrowth": 0.878519126
+    "happiness": 11.3
   },
   {
     "name": "Australia",
@@ -30,14 +23,7 @@
     "nationalism": 95.3,
     "politicalParties": 84.5,
     "fightForCountry": 95.4,
-    "happiness": 7.9,
-    "income": 40276.2,
-    "hdi": 0.922,
-    "internet": 68.91707148,
-    "lifeExpectancy": 81.5,
-    "youngMales": 28.70114489,
-    "medianAge": 36.553,
-    "populationGrowth": 1.6806022
+    "happiness": 7.9
   },
   {
     "name": "Brazil",
@@ -50,14 +36,7 @@
     "nationalism": 83.2,
     "politicalParties": 78.1,
     "fightForCountry": 94.2,
-    "happiness": 9.4,
-    "income": 13224.8,
-    "hdi": 0.7,
-    "internet": 30.62622549,
-    "lifeExpectancy": 72.94,
-    "youngMales": 33.43865766,
-    "medianAge": 26.979,
-    "populationGrowth": 0.994395861
+    "happiness": 9.4
   },
   {
     "name": "Bulgaria",
@@ -70,14 +49,7 @@
     "nationalism": 73,
     "politicalParties": 79.9,
     "fightForCountry": 63.5,
-    "happiness": 40.9,
-    "income": 14015.4,
-    "hdi": 0.7582,
-    "internet": 32.96604191,
-    "lifeExpectancy": 72.98,
-    "youngMales": 30.08260059,
-    "medianAge": 40.758,
-    "populationGrowth": -0.510313445
+    "happiness": 40.9
   },
   {
     "name": "Canada",
@@ -90,14 +62,7 @@
     "nationalism": 93.6,
     "politicalParties": 72.5,
     "fightForCountry": 88,
-    "happiness": 4.4,
-    "income": 40816,
-    "hdi": 0.899,
-    "internet": 74.86180462,
-    "lifeExpectancy": 80.64,
-    "youngMales": 28.3875,
-    "medianAge": 38.58,
-    "populationGrowth": 1.055976356
+    "happiness": 4.4
   },
   {
     "name": "Chile",
@@ -110,14 +75,7 @@
     "nationalism": 92.8,
     "politicalParties": 80,
     "fightForCountry": 90.9,
-    "happiness": 20.4,
-    "income": 17968.8,
-    "hdi": 0.7884,
-    "internet": 35.53461964,
-    "lifeExpectancy": 78.34,
-    "youngMales": 31.01823143,
-    "medianAge": 30.558,
-    "populationGrowth": 0.995768202
+    "happiness": 20.4
   },
   {
     "name": "China",
@@ -130,18 +88,24 @@
     "nationalism": 77.4,
     "politicalParties": 11.8,
     "fightForCountry": 88.6,
-    "happiness": 22.5,
-    "income": 7141,
-    "hdi": 0.6544,
-    "internet": 17.35647158,
-    "lifeExpectancy": 72.98,
-    "youngMales": 32.98219371,
-    "medianAge": 32.062,
-    "populationGrowth": 0.537510633
+    "happiness": 22.5
   },
   {
-    "name": "Cyprus",
-    "code": "cy",
+    "name": "Taiwan",
+    "code": "tw",
+    "continent": "Asia",
+    "immigrants": 24.1,
+    "politics": 72.4,
+    "strongLeader": 58.7,
+    "democracy": 7.599999999999994,
+    "nationalism": 60.3,
+    "politicalParties": 89.2,
+    "fightForCountry": 99.3,
+    "happiness": 14.8
+  },
+  {
+    "name": "N. Cyprus",
+    "code": "-99",
     "continent": "Asia",
     "immigrants": 20.7,
     "politics": 60.4,
@@ -150,14 +114,7 @@
     "nationalism": 90.8,
     "politicalParties": 67.5,
     "fightForCountry": 99.5,
-    "happiness": 12.9,
-    "income": 34713.8,
-    "hdi": 0.8212,
-    "internet": 40.306,
-    "lifeExpectancy": 79.72,
-    "youngMales": 28.99262899,
-    "medianAge": 35.321,
-    "populationGrowth": 1.41858322
+    "happiness": 12.9
   },
   {
     "name": "Ethiopia",
@@ -170,14 +127,7 @@
     "nationalism": 96.3,
     "politicalParties": 56.4,
     "fightForCountry": 72.7,
-    "happiness": 36.1,
-    "income": 862.8,
-    "hdi": 0.3356,
-    "internet": 0.378050495,
-    "lifeExpectancy": 58.62,
-    "youngMales": 27.00991486,
-    "medianAge": 17.391,
-    "populationGrowth": 2.256214383
+    "happiness": 36.1
   },
   {
     "name": "Finland",
@@ -190,14 +140,7 @@
     "nationalism": 93.2,
     "politicalParties": 70.4,
     "fightForCountry": 95.4,
-    "happiness": 7.9,
-    "income": 40281.6,
-    "hdi": 0.8788,
-    "internet": 80.23275166,
-    "lifeExpectancy": 79.4,
-    "youngMales": 26.33424231,
-    "medianAge": 40.89,
-    "populationGrowth": 0.419050248
+    "happiness": 7.9
   },
   {
     "name": "France",
@@ -210,14 +153,7 @@
     "nationalism": 84.4,
     "politicalParties": 82.6,
     "fightForCountry": 85.6,
-    "happiness": 9.5,
-    "income": 36951.4,
-    "hdi": 0.8756,
-    "internet": 57.52172514,
-    "lifeExpectancy": 80.88,
-    "youngMales": 27.62691854,
-    "medianAge": 38.868,
-    "populationGrowth": 0.633651394
+    "happiness": 9.5
   },
   {
     "name": "Georgia",
@@ -230,14 +166,7 @@
     "nationalism": 97,
     "politicalParties": 72.5,
     "fightForCountry": 80.8,
-    "happiness": 32.6,
-    "income": 5426.8,
-    "hdi": 0.7178,
-    "internet": 10.41815567,
-    "lifeExpectancy": 71.94,
-    "youngMales": 29.11332385,
-    "medianAge": 35.722,
-    "populationGrowth": 0.423885452
+    "happiness": 32.6
   },
   {
     "name": "Germany",
@@ -250,14 +179,7 @@
     "nationalism": 66.5,
     "politicalParties": 84.3,
     "fightForCountry": 81,
-    "happiness": 15.6,
-    "income": 39624,
-    "hdi": 0.8992,
-    "internet": 74.85795259,
-    "lifeExpectancy": 79.82,
-    "youngMales": 27.31942135,
-    "medianAge": 42.075,
-    "populationGrowth": -0.149364118
+    "happiness": 15.6
   },
   {
     "name": "Ghana",
@@ -270,14 +192,7 @@
     "nationalism": 99,
     "politicalParties": 58.5,
     "fightForCountry": 93.7,
-    "happiness": 21.5,
-    "income": 2760.4,
-    "hdi": 0.5064,
-    "internet": 3.622874687,
-    "lifeExpectancy": 61.6,
-    "youngMales": 30.26564611,
-    "medianAge": 19.756,
-    "populationGrowth": 2.409882094
+    "happiness": 21.5
   },
   {
     "name": "Guatemala",
@@ -290,14 +205,7 @@
     "nationalism": 95.3,
     "politicalParties": 87.4,
     "fightForCountry": 93.2,
-    "happiness": 21.9,
-    "income": 6765,
-    "hdi": 0.5614,
-    "internet": 7.42,
-    "lifeExpectancy": 70.62,
-    "youngMales": 26.25383003,
-    "medianAge": 18.154,
-    "populationGrowth": 2.467510015
+    "happiness": 21.9
   },
   {
     "name": "Hungary",
@@ -310,14 +218,7 @@
     "nationalism": 83.8,
     "politicalParties": 89.1,
     "fightForCountry": 89.1,
-    "happiness": 24,
-    "income": 22646.2,
-    "hdi": 0.8084,
-    "internet": 48.60753588,
-    "lifeExpectancy": 73.64,
-    "youngMales": 31.5503552,
-    "medianAge": 39.051,
-    "populationGrowth": -0.167903333
+    "happiness": 24
   },
   {
     "name": "India",
@@ -330,14 +231,7 @@
     "nationalism": 90.2,
     "politicalParties": 42.7,
     "fightForCountry": 85.1,
-    "happiness": 24.3,
-    "income": 3732,
-    "hdi": 0.5202,
-    "internet": 3.728714973,
-    "lifeExpectancy": 64.3,
-    "youngMales": 31.64945529,
-    "medianAge": 23.682,
-    "populationGrowth": 1.455106999
+    "happiness": 24.3
   },
   {
     "name": "Indonesia",
@@ -350,14 +244,7 @@
     "nationalism": 91.6,
     "politicalParties": 65.5,
     "fightForCountry": 90.5,
-    "happiness": 6.5,
-    "income": 7508,
-    "hdi": 0.5894,
-    "internet": 5.798118402,
-    "lifeExpectancy": 69.16,
-    "youngMales": 34.40655989,
-    "medianAge": 26.479,
-    "populationGrowth": 1.109148347
+    "happiness": 6.5
   },
   {
     "name": "Iran",
@@ -370,14 +257,7 @@
     "nationalism": 91.2,
     "politicalParties": 74.5,
     "fightForCountry": 86,
-    "happiness": 19.3,
-    "income": 15512,
-    "hdi": 0.6902,
-    "internet": 9.528,
-    "lifeExpectancy": 72.72,
-    "youngMales": 36.40422641,
-    "medianAge": 24.075,
-    "populationGrowth": 1.19554307
+    "happiness": 19.3
   },
   {
     "name": "Italy",
@@ -390,14 +270,7 @@
     "nationalism": 88.7,
     "politicalParties": 81.4,
     "fightForCountry": 84.1,
-    "happiness": 10,
-    "income": 37150.2,
-    "hdi": 0.8674,
-    "internet": 41.48817487,
-    "lifeExpectancy": 81.34,
-    "youngMales": 29.42334048,
-    "medianAge": 41.746,
-    "populationGrowth": 0.681800227
+    "happiness": 10
   },
   {
     "name": "Jordan",
@@ -410,14 +283,20 @@
     "nationalism": 99,
     "politicalParties": 51.6,
     "fightForCountry": 92,
-    "happiness": 13.1,
-    "income": 10327.4,
-    "hdi": 0.6844,
-    "internet": 19.25610876,
-    "lifeExpectancy": 76.14,
-    "youngMales": 33.99720475,
-    "medianAge": 20.88,
-    "populationGrowth": 2.233465031
+    "happiness": 13.1
+  },
+  {
+    "name": "South Korea",
+    "code": "kr",
+    "continent": "Asia",
+    "immigrants": 38.4,
+    "politics": 58.9,
+    "strongLeader": 17,
+    "democracy": 22.900000000000006,
+    "nationalism": 88.6,
+    "politicalParties": 75.7,
+    "fightForCountry": 99.3,
+    "happiness": 12.6
   },
   {
     "name": "Malaysia",
@@ -430,14 +309,7 @@
     "nationalism": 94.7,
     "politicalParties": 41.7,
     "fightForCountry": 99,
-    "happiness": 5.3,
-    "income": 19038.6,
-    "hdi": 0.7456,
-    "internet": 53.53343185,
-    "lifeExpectancy": 74.42,
-    "youngMales": 31.82341651,
-    "medianAge": 24.722,
-    "populationGrowth": 1.763524026
+    "happiness": 5.3
   },
   {
     "name": "Mali",
@@ -450,14 +322,7 @@
     "nationalism": 96.3,
     "politicalParties": 57,
     "fightForCountry": 85.8,
-    "happiness": 16.2,
-    "income": 1568.6,
-    "hdi": 0.3362,
-    "internet": 1.083338083,
-    "lifeExpectancy": 57.94,
-    "youngMales": 28.18493151,
-    "medianAge": 17.384,
-    "populationGrowth": 3.094872838
+    "happiness": 16.2
   },
   {
     "name": "Mexico",
@@ -470,14 +335,7 @@
     "nationalism": 95.3,
     "politicalParties": 74.6,
     "fightForCountry": 92.8,
-    "happiness": 9,
-    "income": 15400.2,
-    "hdi": 0.7534,
-    "internet": 21.118,
-    "lifeExpectancy": 75.36,
-    "youngMales": 33.13964675,
-    "medianAge": 25.464,
-    "populationGrowth": 1.263238816
+    "happiness": 9
   },
   {
     "name": "Moldova",
@@ -490,14 +348,7 @@
     "nationalism": 65.9,
     "politicalParties": 77.8,
     "fightForCountry": 84.2,
-    "happiness": 46.8,
-    "income": 3591.8,
-    "hdi": 0.6376,
-    "internet": 21.65036565,
-    "lifeExpectancy": 70.06,
-    "youngMales": 29.33930571,
-    "medianAge": 34.049,
-    "populationGrowth": -0.213856851
+    "happiness": 46.8
   },
   {
     "name": "Morocco",
@@ -510,14 +361,7 @@
     "nationalism": 92,
     "politicalParties": 58.4,
     "fightForCountry": 94.3,
-    "happiness": 19.1,
-    "income": 5863.4,
-    "hdi": 0.5642,
-    "internet": 26.15112722,
-    "lifeExpectancy": 73.1,
-    "youngMales": 31.97174652,
-    "medianAge": 24.327,
-    "populationGrowth": 1.006340336
+    "happiness": 19.1
   },
   {
     "name": "Netherlands",
@@ -530,14 +374,7 @@
     "nationalism": 78.9,
     "politicalParties": 73.9,
     "fightForCountry": 74.2,
-    "happiness": 5.8,
-    "income": 45529.8,
-    "hdi": 0.8996,
-    "internet": 85.68968782,
-    "lifeExpectancy": 80.12,
-    "youngMales": 27.61184781,
-    "medianAge": 39.057,
-    "populationGrowth": 0.303075085
+    "happiness": 5.8
   },
   {
     "name": "New Zealand",
@@ -550,14 +387,7 @@
     "nationalism": 90.3,
     "politicalParties": 77.1,
     "fightForCountry": 75.5,
-    "happiness": 2.6,
-    "income": 32170.4,
-    "hdi": 0.9026,
-    "internet": 70.71271335,
-    "lifeExpectancy": 80.12,
-    "youngMales": 27.5147929,
-    "medianAge": 35.595,
-    "populationGrowth": 1.086983418
+    "happiness": 2.6
   },
   {
     "name": "Norway",
@@ -570,14 +400,7 @@
     "nationalism": 86.4,
     "politicalParties": 70.7,
     "fightForCountry": 98.3,
-    "happiness": 3.5,
-    "income": 64499.4,
-    "hdi": 0.9404,
-    "internet": 86.96124523,
-    "lifeExpectancy": 80.56,
-    "youngMales": 27.69565217,
-    "medianAge": 37.965,
-    "populationGrowth": 1.005732104
+    "happiness": 3.5
   },
   {
     "name": "Poland",
@@ -590,14 +413,7 @@
     "nationalism": 95.7,
     "politicalParties": 85.4,
     "fightForCountry": 86.5,
-    "happiness": 8.4,
-    "income": 18923.2,
-    "hdi": 0.7994,
-    "internet": 48.89837313,
-    "lifeExpectancy": 75.32,
-    "youngMales": 31.40227396,
-    "medianAge": 36.761,
-    "populationGrowth": -0.016044788
+    "happiness": 8.4
   },
   {
     "name": "Romania",
@@ -610,14 +426,7 @@
     "nationalism": 82.1,
     "politicalParties": 82.7,
     "fightForCountry": 83.6,
-    "happiness": 43.9,
-    "income": 16121.6,
-    "hdi": 0.7656,
-    "internet": 28.81814223,
-    "lifeExpectancy": 73,
-    "youngMales": 33.17522057,
-    "medianAge": 36.678,
-    "populationGrowth": -0.189495333
+    "happiness": 43.9
   },
   {
     "name": "Russia",
@@ -630,14 +439,7 @@
     "nationalism": 80.9,
     "politicalParties": 72.7,
     "fightForCountry": 72.4,
-    "happiness": 29.8,
-    "income": 20479.4,
-    "hdi": 0.739,
-    "internet": 22.92277223,
-    "lifeExpectancy": 67.24,
-    "youngMales": 32.21137918,
-    "medianAge": 37.323,
-    "populationGrowth": -0.271501524
+    "happiness": 29.8
   },
   {
     "name": "Vietnam",
@@ -650,14 +452,7 @@
     "nationalism": 98.2,
     "politicalParties": 5.9,
     "fightForCountry": 93.3,
-    "happiness": 7.6,
-    "income": 3884.8,
-    "hdi": 0.5736,
-    "internet": 20.4387789,
-    "lifeExpectancy": 73.8,
-    "youngMales": 33.01731644,
-    "medianAge": 25.572,
-    "populationGrowth": 1.095992819
+    "happiness": 7.6
   },
   {
     "name": "Slovenia",
@@ -670,14 +465,7 @@
     "nationalism": 86.6,
     "politicalParties": 85.3,
     "fightForCountry": 80.8,
-    "happiness": 18.7,
-    "income": 28724.8,
-    "hdi": 0.865,
-    "internet": 55.77111553,
-    "lifeExpectancy": 78.3,
-    "youngMales": 30.76923077,
-    "medianAge": 40.072,
-    "populationGrowth": 0.422709527
+    "happiness": 18.7
   },
   {
     "name": "South Africa",
@@ -690,14 +478,7 @@
     "nationalism": 95.4,
     "politicalParties": 54.2,
     "fightForCountry": 85,
-    "happiness": 21.8,
-    "income": 11789.6,
-    "hdi": 0.6044,
-    "internet": 8.411434254,
-    "lifeExpectancy": 53.1,
-    "youngMales": 34.09686417,
-    "medianAge": 23.925,
-    "populationGrowth": 1.106864159
+    "happiness": 21.8
   },
   {
     "name": "Spain",
@@ -710,14 +491,7 @@
     "nationalism": 92,
     "politicalParties": 69.3,
     "fightForCountry": 86.7,
-    "happiness": 7.5,
-    "income": 34053,
-    "hdi": 0.866,
-    "internet": 54.80080184,
-    "lifeExpectancy": 80.88,
-    "youngMales": 33.63700732,
-    "medianAge": 38.652,
-    "populationGrowth": 1.452961367
+    "happiness": 7.5
   },
   {
     "name": "Sweden",
@@ -730,14 +504,7 @@
     "nationalism": 83.9,
     "politicalParties": 65.6,
     "fightForCountry": 92.9,
-    "happiness": 3.7,
-    "income": 42460.6,
-    "hdi": 0.8982,
-    "internet": 87.22140816,
-    "lifeExpectancy": 80.92,
-    "youngMales": 26.67557337,
-    "medianAge": 40.103,
-    "populationGrowth": 0.666983378
+    "happiness": 3.7
   },
   {
     "name": "Switzerland",
@@ -750,14 +517,7 @@
     "nationalism": 75,
     "politicalParties": 70.5,
     "fightForCountry": 80.4,
-    "happiness": 5.9,
-    "income": 53307.4,
-    "hdi": 0.8934,
-    "internet": 76.15475389,
-    "lifeExpectancy": 81.7,
-    "youngMales": 27.97471833,
-    "medianAge": 40.349,
-    "populationGrowth": 0.936390739
+    "happiness": 5.9
   },
   {
     "name": "Thailand",
@@ -770,14 +530,7 @@
     "nationalism": 98.8,
     "politicalParties": 76.3,
     "fightForCountry": 97.5,
-    "happiness": 7.3,
-    "income": 11674.4,
-    "hdi": 0.6664,
-    "internet": 18.10334382,
-    "lifeExpectancy": 73.66,
-    "youngMales": 33.3251186,
-    "medianAge": 31.473,
-    "populationGrowth": 0.785381793
+    "happiness": 7.3
   },
   {
     "name": "Trinidad and Tobago",
@@ -790,14 +543,7 @@
     "nationalism": 97.7,
     "politicalParties": 88.2,
     "fightForCountry": 93.7,
-    "happiness": 13.3,
-    "income": 28899,
-    "hdi": 0.7454,
-    "internet": 34.0760922,
-    "lifeExpectancy": 71.48,
-    "youngMales": 35.52425665,
-    "medianAge": 28.86,
-    "populationGrowth": 0.388788697
+    "happiness": 13.3
   },
   {
     "name": "Turkey",
@@ -810,14 +556,7 @@
     "nationalism": 90.5,
     "politicalParties": 62.8,
     "fightForCountry": 96.6,
-    "happiness": 13.7,
-    "income": 15932.2,
-    "hdi": 0.6842,
-    "internet": 26.62,
-    "lifeExpectancy": 77.32,
-    "youngMales": 34.96423382,
-    "medianAge": 26.458,
-    "populationGrowth": 1.326403151
+    "happiness": 13.7
   },
   {
     "name": "Ukraine",
@@ -830,14 +569,7 @@
     "nationalism": 69.5,
     "politicalParties": 72.1,
     "fightForCountry": 81.4,
-    "happiness": 22.6,
-    "income": 7978.4,
-    "hdi": 0.7208,
-    "internet": 8.689141614,
-    "lifeExpectancy": 68,
-    "youngMales": 31.47720982,
-    "medianAge": 38.913,
-    "populationGrowth": -0.598216456
+    "happiness": 22.6
   },
   {
     "name": "United Kingdom",
@@ -850,14 +582,7 @@
     "nationalism": 84.7,
     "politicalParties": 76.9,
     "fightForCountry": 82,
-    "happiness": 6.4,
-    "income": 47751.8,
-    "hdi": 0.905,
-    "internet": 57.31010857,
-    "lifeExpectancy": 80,
-    "youngMales": 33.17399618,
-    "medianAge": 33.346,
-    "populationGrowth": 1.828864354
+    "happiness": 6.4
   },
   {
     "name": "United States of America",
@@ -870,14 +595,7 @@
     "nationalism": 87.7,
     "politicalParties": 81.3,
     "fightForCountry": 96.5,
-    "happiness": 6.8,
-    "income": 50062.8,
-    "hdi": 0.9048,
-    "internet": 71.63292903,
-    "lifeExpectancy": 78.06,
-    "youngMales": 28.50534023,
-    "medianAge": 35.959,
-    "populationGrowth": 0.931907783
+    "happiness": 6.8
   },
   {
     "name": "Burkina Faso",
@@ -890,14 +608,7 @@
     "nationalism": 95.7,
     "politicalParties": 62,
     "fightForCountry": 86.1,
-    "happiness": 19.6,
-    "income": 1304.6,
-    "hdi": 0.3138,
-    "internet": 0.780524411,
-    "lifeExpectancy": 57.28,
-    "youngMales": 28.92586106,
-    "medianAge": 16.907,
-    "populationGrowth": 2.953872832
+    "happiness": 19.6
   },
   {
     "name": "Uruguay",
@@ -910,14 +621,7 @@
     "nationalism": 92.8,
     "politicalParties": 62.6,
     "fightForCountry": 78.6,
-    "happiness": 13.6,
-    "income": 14406.4,
-    "hdi": 0.7618,
-    "internet": 33.04408856,
-    "lifeExpectancy": 75.82,
-    "youngMales": 29.09657321,
-    "medianAge": 32.659,
-    "populationGrowth": 0.26001958
+    "happiness": 13.6
   },
   {
     "name": "Zambia",
@@ -930,13 +634,6 @@
     "nationalism": 86.4,
     "politicalParties": 69.6,
     "fightForCountry": 86,
-    "happiness": 37.8,
-    "income": 2907.2,
-    "hdi": 0.4058,
-    "internet": 4.748333131,
-    "lifeExpectancy": 49.48,
-    "youngMales": 27.86520698,
-    "medianAge": 16.814,
-    "populationGrowth": 2.564661385
+    "happiness": 37.8
   }
 ]

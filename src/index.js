@@ -27,14 +27,18 @@ class App extends Component {
             onLinkClick={this.handleLinkClick}
           />
         )
-        break;
       case 2:
         return (
           <PartTwo 
             onLinkClick={this.handleLinkClick}
           />
         )
-        break;
+      default:
+        return (
+          <PartOne 
+            onLinkClick={this.handleLinkClick}
+          />
+        )
     }
   }
 }

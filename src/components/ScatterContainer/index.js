@@ -1,38 +1,58 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 import './ScatterContainer.css'
 
 import {
   ScatterChart, Scatter, 
-  XAxis, YAxis, ZAxis, 
+  XAxis, YAxis, 
   CartesianGrid, 
   Tooltip, Legend
 } from 'recharts'
 
-const data01 = [{x: 100, y: 200, z: 200}, {x: 120, y: 100, z: 260},
-  {x: 170, y: 300, z: 400}, {x: 140, y: 250, z: 280},
-  {x: 150, y: 400, z: 500}, {x: 110, y: 280, z: 200}];
-const data02 = [{x: 200, y: 260, z: 240}, {x: 240, y: 290, z: 220},
-  {x: 190, y: 290, z: 250}, {x: 198, y: 250, z: 210},
-  {x: 180, y: 280, z: 260}, {x: 210, y: 220, z: 230}];
+import colorMap from '../../assets/continentToColourMap.json'
 
-class ScatterContainer extends Component {
-  render () {
-  	return (
-    	<div className="ScatterContainer">
-        <ScatterChart width={800} height={300} margin={{top: 20, right: 20, bottom: 20, left: 20}}>
-          <XAxis type="number" dataKey={'x'} name='stature' unit='cm'/>
-          <YAxis type="number" dataKey={'y'} name='weight' unit='kg'/>
-          <ZAxis dataKey={'z'} range={[60, 400]} name='score' unit='km'/>
-          <CartesianGrid />
-          <Tooltip cursor={{strokeDasharray: '3 3'}}/>
-          <Legend/>
-          <Scatter name='A school' data={data01} fill='#8884d8' shape="star"/>
-          <Scatter name='B school' data={data02} fill='#82ca9d' shape="triangle"/>
-        </ScatterChart>
-      </div>
-    )
+const ScatterContainer = (props) => {
+
+  const europeans = props.data.filter(country => country.continent === 'Europe')
+  const asians = props.data.filter(country => country.continent === 'Asia')
+  const africans = props.data.filter(country => country.continent === 'Africa')
+  const oceanics = props.data.filter(country => country.continent === 'Oceania')
+  const northAmericans = props.data.filter(country => country.continent === 'North America')
+  const southAmericans = props.data.filter(country => country.continent === 'South America')
+
+  const renderToolTip = ({payload}) => {
+    console.log(payload)
+    if(payload.length > 0) {
+      const x = payload[0]
+      const y = payload[1]
+      const country = x.payload.name
+      return (
+        <div className="scatterTip">
+          <p className="scatterTipName">{country}</p>
+          <p className="xValue">{x.name}: {x.value}{x.unit}</p>
+          <p className="yValue">{y.name}: {y.value}{y.unit}</p>
+        </div>
+      )
+    }
   }
-}
 
-export default ScatterContainer;
+  return (
+    <div className="ScatterContainer">
+      <ScatterChart width={800} height={300} margin={{top: 20, right: 20, bottom: 20, left: 20}}>
+        <XAxis type="number" dataKey={'hdi'} name='Human-Development Index' unit=''/>
+        <YAxis type="number" dataKey={'immigrants'} name='Disliking immigrants' unit='%'/>
+        <CartesianGrid />
+        <Tooltip cursor={{strokeDasharray: '3 3'}} content={renderToolTip}/>
+        <Legend/>
+        <Scatter name='Europe' data={europeans} fill={colorMap['Europe'].full} r={2}/>
+        <Scatter name='Asia' data={asians} fill={colorMap['Asia'].full} r={2}/>
+        <Scatter name='Africa' data={africans} fill={colorMap['Africa'].full}/>
+        <Scatter name='Oceania' data={oceanics} fill={colorMap['Oceania'].full}/>
+        <Scatter name='North America' data={northAmericans} fill={colorMap['North America'].full}/>
+        <Scatter name='South America' data={southAmericans} fill={colorMap['South America'].full}/>
+      </ScatterChart>
+    </div>
+  )
+};
+
+export default ScatterContainer
