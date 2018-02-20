@@ -6,7 +6,8 @@ import {
   WaveChanger,
   PartSelector,
   ScatterContainer,
-  AnalyticTrailTwo
+  AnalyticTrailTwo,
+  Footer
 } from './components'
 
 import dataW1 from './assets/dataW1.json'
@@ -105,6 +106,7 @@ class PartTwo extends Component {
           color={continentToColourMap}
         />
         <AnalyticTrailTwo />
+        <Footer />
       </div>
     );
   }
