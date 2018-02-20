@@ -25,18 +25,21 @@ class App extends Component {
         return (
           <PartOne 
             onLinkClick={this.handleLinkClick}
+            selectedScreen={this.state.selectedScreen}
           />
         )
       case 2:
         return (
           <PartTwo 
             onLinkClick={this.handleLinkClick}
+            selectedScreen={this.state.selectedScreen}
           />
         )
       default:
         return (
           <PartOne 
             onLinkClick={this.handleLinkClick}
+            selectedScreen={this.state.selectedScreen}
           />
         )
     }

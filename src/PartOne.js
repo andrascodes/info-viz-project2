@@ -79,6 +79,7 @@ class PartOne extends Component {
         <PartSelector 
           onPartOneClick={this.props.onLinkClick(1)}
           onPartTwoClick={this.props.onLinkClick(2)}
+          active={this.props.selectedScreen}
         />
         <div className="TitleContainer">
           <h1 className="Title">

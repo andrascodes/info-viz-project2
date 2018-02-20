@@ -24,8 +24,8 @@ class PartTwo extends Component {
 
     this.state ={
       brushed: dataW1,
-      variableX: dimensions.wvs.immigrants,
-      variableY: dimensions.gapMinder.income,
+      variableX: dimensions.gapMinder.income,
+      variableY: dimensions.wvs.immigrants,
       selectedCountry: undefined,
       data: dataW1,
       wave: 0,
@@ -73,6 +73,7 @@ class PartTwo extends Component {
         <PartSelector 
           onPartOneClick={this.props.onLinkClick(1)}
           onPartTwoClick={this.props.onLinkClick(2)}
+          active={this.props.selectedScreen}
         />
         <div className="TitleContainer">
           <h1 className="Title">

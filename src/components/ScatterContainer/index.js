@@ -35,8 +35,7 @@ const ScatterContainer = (props) => {
       )
     }
   }
-
-  console.log(props)
+  
   return (
     <div className="ScatterContainer">
       <div className="ScatterLeft">
