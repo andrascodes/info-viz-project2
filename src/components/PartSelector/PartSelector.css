@@ -9,14 +9,14 @@
 
 .PartSelector button {
   background-color: transparent;
-  color: black;
+  color: #1e272e;
   font-size: 1em;
   padding: 1em 2em;
   border: none;
 }
 
 .PartSelector button:hover {
-  background-color: black;
+  background-color: #1e272e;
   color: white;
 }
 
@@ -25,6 +25,6 @@
 }
 
 .PartSelector button.active {
-  background-color: black;
+  background-color: #1e272e;
   color: white;
 }

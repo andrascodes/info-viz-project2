@@ -1,0 +1,20 @@
+.TrailContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5em;
+}
+
+.TrailContainer h2 {
+  margin-bottom: 0em;
+}
+
+.TrailContainer .insightList {
+  width: 50%;
+}
+
+.TrailContainer .insightList li {
+  margin: 0.5em 0;
+}
+
+

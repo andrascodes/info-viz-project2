@@ -5,7 +5,8 @@ import {
   ParallelCoordinatesContainer,
   MapContainer,
   WaveChanger,
-  PartSelector
+  PartSelector,
+  AnalyticTrailOne,
 } from './components'
 
 import dataW1 from './assets/dataW1.json'
@@ -83,8 +84,11 @@ class PartOne extends Component {
         />
         <div className="TitleContainer">
           <h1 className="Title">
-            Which countries are potential hotbeds for populism? (Pt. 1)
+            In search of populistic countries
           </h1>
+          <p className="subTitle">
+            The analysis below uses data from the World Values Survey to identify potential countries where populistic leaders could have a chance to rise.
+          </p>
         </div>
         <WaveChanger 
           selected={this.state.wave}
@@ -104,6 +108,7 @@ class PartOne extends Component {
           onClick={this.handleClick}
           color={continentToColourMap}
         />
+        <AnalyticTrailOne />
       </div>
     );
   }

@@ -77,8 +77,11 @@ class PartTwo extends Component {
         />
         <div className="TitleContainer">
           <h1 className="Title">
-            Which countries are potential hotbeds for populism? (Pt. 2)
+            Examining the causes of populism
           </h1>
+          <p className="subTitle">
+            The analysis below combines data from the World Values Survey and Gapminder to search for correlation with macroeconomic values.
+          </p>
         </div>
         <WaveChanger 
           selected={this.state.wave}

@@ -9,7 +9,7 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      selectedScreen: 2
+      selectedScreen: 1
     }
   }
 

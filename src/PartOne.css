@@ -1,9 +1,18 @@
 .TitleContainer {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Title {
   /* width: 60%; */
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+p.subTitle {
+  margin-top: 0;
+  margin-bottom: 3em;
+  width: 60%;
   text-align: center;
 }

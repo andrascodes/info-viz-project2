@@ -15,8 +15,8 @@ const PartSelector = (props) => {
 
   return (
     <div className="PartSelector">
-      <button className={pt1ClassName} onClick={props.onPartOneClick}>Part 1</button>
-      <button className={pt2ClassName} onClick={props.onPartTwoClick}>Part 2</button>
+      <button className={pt1ClassName} onClick={props.onPartOneClick}>Populistic countries</button>
+      <button className={pt2ClassName} onClick={props.onPartTwoClick}>Causes of populism</button>
     </div>
   );
 };
