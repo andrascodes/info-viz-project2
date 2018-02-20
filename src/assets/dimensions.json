@@ -1,43 +1,97 @@
 {
-  "immigrants": {
-    "description": "Would not like to have immigrants/foreign workers as neighbors",
-    "title": "Disliking Immigrants",
-    "type": "number",
-    "domain": [0, 100]
+  "wvs": {
+    "immigrants": {
+      "description": "Would not like to have immigrants/foreign workers as neighbors",
+      "title": "Disliking Immigrants",
+      "type": "number",
+      "variableName": "immigrants"
+    },
+    "politics": {
+      "description": "Not interested in politics",
+      "title": "Disinterest in Politics",
+      "type": "number",
+      "variableName": "politics"
+    },
+    "strongLeader": {
+      "description": "It is good to have a strong leader who does not have to bother with parliament and elections",
+      "title": "Favouring a strong leader",
+      "type": "number",
+      "variableName": "strongLeader"
+    },
+    "democracy": {
+      "description": "It is NOT good to have a democratic political system",
+      "title": "Disliking democracy",
+      "type": "number",
+      "variableName": "democracy"
+    },
+    "nationalism": {
+      "description": "Proud of nationality",
+      "title": "Nationalistic feelings",
+      "type": "number",
+      "variableName": "nationalism"
+    },
+    "politicalParties": {
+      "description": "Have no Confidence in Political Parties",
+      "title": "No confidence in parties",
+      "type": "number",
+      "variableName": "politicalParties"
+      
+    },
+    "fightForCountry": {
+      "description": "Would fight for the country",
+      "title": "Would fight for country",
+      "type": "number",
+      "variableName": "fightForCountry"
+    },
+    "happiness": {
+      "description": "Feeling NOT happy",
+      "title": "Unhappy",
+      "type": "number",
+      "variableName": "happiness"
+    }
   },
-  "politics": {
-    "description": "Not interested in politics",
-    "title": "Disinterest in Politics",
-    "type": "number"
-  },
-  "strongLeader": {
-    "description": "It is good to have a strong leader who does not have to bother with parliament and elections",
-    "title": "Favouring a strong leader",
-    "type": "number"
-  },
-  "democracy": {
-    "description": "It is NOT good to have a democratic political system",
-    "title": "Disliking democracy",
-    "type": "number"
-  },
-  "nationalism": {
-    "description": "Proud of nationality",
-    "title": "Nationalistic feelings",
-    "type": "number"
-  },
-  "politicalParties": {
-    "description": "Have no Confidence in Political Parties",
-    "title": "No confidence in parties",
-    "type": "number"
-  },
-  "fightForCountry": {
-    "description": "Would fight for the country",
-    "title": "Would fight for country",
-    "type": "number"
-  },
-  "happiness": {
-    "description": "Feeling NOT happy",
-    "title": "Unhappy",
-    "type": "number"
+  "gapMinder": {
+    "income": {
+      "description": "Income",
+      "title": "Income",
+      "type": "number",
+      "variableName": "income"
+    }, 
+    "hdi": {
+      "description": "Human-Development Index",
+      "title": "Human-Development Index",
+      "type": "number",
+      "variableName": "hdi"
+    }, 
+    "internet": {
+      "description": "Internet users per 100 people",
+      "title": "Internet users",
+      "type": "number",
+      "variableName": "internet"
+    }, 
+    "lifeExpectancy": {
+      "description": "Life expectancy",
+      "title": "Life expectancy",
+      "type": "number",
+      "variableName": "lifeExpectancy"
+    }, 
+    "youngMales": {
+      "description": "Young male population percentage",
+      "title": "Young Males",
+      "type": "number",
+      "variableName": "youngMales"
+    }, 
+    "medianAge": {
+      "description": "Median Age of Population",
+      "title": "Median Age",
+      "type": "number",
+      "variableName": "medianAge"
+    }, 
+    "populationGrowth": {
+      "description": "Population Growth",
+      "title": "Population Growth",
+      "type": "number",
+      "variableName": "populationGrowth"
+    }
   }
 }

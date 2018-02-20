@@ -36,21 +36,52 @@ const ScatterContainer = (props) => {
     }
   }
 
+  console.log(props)
   return (
     <div className="ScatterContainer">
-      <ScatterChart width={800} height={300} margin={{top: 20, right: 20, bottom: 20, left: 20}}>
-        <XAxis type="number" dataKey={'hdi'} name='Human-Development Index' unit=''/>
-        <YAxis type="number" dataKey={'immigrants'} name='Disliking immigrants' unit='%'/>
-        <CartesianGrid />
-        <Tooltip cursor={{strokeDasharray: '3 3'}} content={renderToolTip}/>
-        <Legend/>
-        <Scatter name='Europe' data={europeans} fill={colorMap['Europe'].full} r={2}/>
-        <Scatter name='Asia' data={asians} fill={colorMap['Asia'].full} r={2}/>
-        <Scatter name='Africa' data={africans} fill={colorMap['Africa'].full}/>
-        <Scatter name='Oceania' data={oceanics} fill={colorMap['Oceania'].full}/>
-        <Scatter name='North America' data={northAmericans} fill={colorMap['North America'].full}/>
-        <Scatter name='South America' data={southAmericans} fill={colorMap['South America'].full}/>
-      </ScatterChart>
+      <div className="ScatterLeft">
+        <select onChange={props.onVariableYChange}>
+          {Object.values(props.dimensionsY).map((variable, index) => (
+            <option 
+              key={`varY${index}`}
+              value={variable.variableName}
+            >
+              {variable.title}
+            </option>
+          ))}
+        </select>
+      </div>
+      <div className="ScatterRight">
+        <ScatterChart width={800} height={300} margin={{top: 20, right: 20, bottom: 20, left: 20}}>
+          <XAxis 
+            type="number" dataKey={props.variableX.variableName} 
+            name={props.variableX.title} unit=''
+          />
+          <YAxis 
+            type="number" dataKey={props.variableY.variableName} 
+            name={props.variableY.title} unit='%'
+          />
+          <CartesianGrid />
+          <Tooltip cursor={{strokeDasharray: '3 3'}} content={renderToolTip}/>
+          <Legend/>
+          <Scatter name='Europe' data={europeans} fill={colorMap['Europe'].full} r={2}/>
+          <Scatter name='Asia' data={asians} fill={colorMap['Asia'].full} r={2}/>
+          <Scatter name='Africa' data={africans} fill={colorMap['Africa'].full}/>
+          <Scatter name='Oceania' data={oceanics} fill={colorMap['Oceania'].full}/>
+          <Scatter name='North America' data={northAmericans} fill={colorMap['North America'].full}/>
+          <Scatter name='South America' data={southAmericans} fill={colorMap['South America'].full}/>
+        </ScatterChart>
+        <select onChange={props.onVariableXChange}>
+          {Object.values(props.dimensionsX).map((variable, index) => (
+            <option 
+              key={`varX${index}`}
+              value={variable.variableName}
+            >
+              {variable.title}
+            </option>
+          ))}
+        </select>
+      </div>
     </div>
   )
 };

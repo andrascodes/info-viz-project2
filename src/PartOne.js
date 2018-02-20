@@ -91,13 +91,13 @@ class PartOne extends Component {
         />
         <ParallelCoordinatesContainer
           data={this.state.data}
-          dimensions={dimensions}
+          dimensions={dimensions.wvs}
           highlightedItem={this.state.selectedCountry}
           onBrush={this.handleBrush}
           color={continentToColourMap}
         />
         <MapContainer
-          dimensions={dimensions}
+          dimensions={dimensions.wvs}
           selectable={this.state.brushed}
           selected={this.state.selectedCountry}
           onClick={this.handleClick}

@@ -1,4 +1,11 @@
 .ScatterContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.ScatterRight {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -24,6 +24,8 @@ class PartTwo extends Component {
 
     this.state ={
       brushed: dataW1,
+      variableX: dimensions.wvs.immigrants,
+      variableY: dimensions.gapMinder.income,
       selectedCountry: undefined,
       data: dataW1,
       wave: 0,
@@ -41,26 +43,18 @@ class PartTwo extends Component {
     }))
   }
 
-  handleBrush = (e) => {
-    const isSelectedCountryUndefined = this.state.selectedCountry === undefined
-    const areArraysEqual = (array1, array2) => {
-      if(array1 === undefined || array2 === undefined) {
-        return true
-      }
-      if(array1.length !== array2.length) {
-        return false
-      }
-      
-      return array1.every((value, index) => value.code === array2[index].code)
-    }
-
-    if(!isSelectedCountryUndefined || !areArraysEqual(e.data, this.state.brushed)) {
-      console.log('state change', e.data)
-      this.setState(state => ({
-        brushed: e.data,
-        selectedCountry: undefined,
-      }))
-    }
+  handleVariableXChange = (event) => {
+    event.persist()
+    this.setState(state => ({
+      variableX: dimensions.gapMinder[event.target.value]
+    }))
+  }
+  
+  handleVariableYChange = (event) => {
+    event.persist()
+    this.setState(state => ({
+      variableY: dimensions.wvs[event.target.value]
+    }))
   }
 
   handleClick = (e) => {
@@ -91,9 +85,15 @@ class PartTwo extends Component {
         />
         <ScatterContainer 
           data={this.state.data}
+          dimensionsX={dimensions.gapMinder}
+          dimensionsY={dimensions.wvs}
+          onVariableXChange={this.handleVariableXChange}
+          onVariableYChange={this.handleVariableYChange}
+          variableX={this.state.variableX}
+          variableY={this.state.variableY}
         />
         <MapContainer
-          dimensions={dimensions}
+          dimensions={dimensions.wvs}
           selectable={this.state.brushed}
           selected={this.state.selectedCountry}
           onClick={this.handleClick}
